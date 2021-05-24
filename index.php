@@ -168,12 +168,12 @@ if (isset($_GET["callbackPayload"]) && isset($_GET["status"])) {
 
 }
 
-else { 
+// else { 
 
-  header('HTTP/1.0 403 Forbidden');
-  echo 'Access forbidden!';
+//   header('HTTP/1.0 403 Forbidden');
+//   echo 'Access forbidden!';
 
-}
+// }
 
 
 ?>
